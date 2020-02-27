@@ -1,0 +1,5 @@
+UPDATE a
+SET a.MustbeChangedColName = b.SourceColName
+FROM TableName a
+INNER JOIN TableName b
+on a.PKofIdonTheFirstCol = b.PKofIdonTheFirstCol
